@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600&family=Roboto:wght@300&display=swap');
+
+/* Css files */
+@import url(../CSS/utility.css);
+@import url(../CSS/header.css);
+@import url(../CSS/sidebar.css);
+@import url(../CSS/color.css);
+@import url(../CSS/typography.css);
+
+
+/* CSS Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
+}

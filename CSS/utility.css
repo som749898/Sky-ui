@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600&family=Roboto:wght@300&display=swap');
+
+.
+
+.py-1x {
+  padding: 10px;
+}
+
+.py-2x {
+  padding: 20px;
+}
+
+.py-3x {
+  padding: 30px;
+}
+
+.mg-1x {
+  margin: 10px;
+}
+
+.mg-2x {
+  margin: 20px;
+}
+
+.mg-3x {
+  margin: 30px;
+}
+
+.flex {
+  display: flex;
+}
+
+.vertical-center {
+  align-items: center;
+}
+
+.horizontal-center {
+  justify-content: center;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.gap-1x {
+  gap: 10px;
+}
+
+.gap-2x {
+  gap: 20px;
+}
+
+.gap-3x {
+  gap: 30px;
+}
+
+.heading1 {
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.heading2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.heading3 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.heading4 {
+  font-size: 20px;
+}
+
+.py-bottom-1x {
+  padding-bottom: 10px;
+}
+
+.py-bottom-2x {
+  padding-bottom: 20px;
+}
+
+.py-bottom-3x {
+  padding-bottom: 30px;
+}
+
+.mg-bottom-1x {
+  margin-bottom: 10px;
+}
+
+.mg-bottom-2x {
+  margin-bottom: 20px;
+}
+
+.mg-bottom-3x {
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+.text-size {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.text-grey {
+  color: #666;
+}
+
+.bolder {
+  font-weight: bolder;
+}
