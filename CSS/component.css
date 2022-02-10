@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600&family=Roboto:wght@300&display=swap');
+
+/* Css files */
+@import url(../CSS/utility.css);
+@import url(../CSS/header.css);
+@import url(../CSS/sidebar.css);
+@import url(../CSS/color.css);
+@import url(../CSS/typography.css);
+@import url(/Components/Avatar/avatar.css);
+@import url(/Components/Badge/badge.css);
+
+
+
+/* CSS Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
+}
+
+/* Color scheme */
+:root {
+  --primary-color: #276EF1;
+  --secondary-color: #666666;
+  --default-color: #000000;
+  --danger-color: #FCC5C5;
+  --success-color: #84F1C9;
+  --warning-color: #FFE7C5;
+
+  --primary-hover: #0E55D7;
+  --secondary-hover: #808080;
+  --danger-hover: #DC3545;
+  --success-hover: #1B7052;
+  --warning-hover: #FF9204;
+
+  --white-color: #fff;
+  --off-white: #ddd;
+}

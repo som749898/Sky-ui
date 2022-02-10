@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SKY UI</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css" integrity="sha512-Vj6gPCk8EZlqnoveEyuGyYaWZ1+jyjMPg8g4shwyyNlRQl6d3L9At02ZHQr5K6s5duZl/+YKMnM3/8pDhoUphg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/CSS/component.css">
+</head>
+<body>
+  <div class="container">
+    <header id="navbar" class="mg-1x flex vertical-center">
+      <h1 id="icon"><a href="/index.html">SKY UI</a></h1>
+      <ul id="menu" class="flex gap-3x">
+        <li class="menu-list"><a href="/index.html">Home</a></li>
+        <li class="menu-list"><a href="/Get-Started/introduction.html">Docs</a></li>
+        <li class="menu-list"><a href="https://github.com/som749898/sky-ui" target="_blank">Github</a></li>
+      </ul>
+    </header>
+    <div class="main-content flex">
+      <div class="component-list mg-1x">
+        <div class="get-started py-bottom-2x">
+          <h3 class="heading4">Get Started</h3>
+          <ul>
+            <li><a href="/Get-Started/introduction.html">Introduction</a></li>
+            <li><a href="/Get-Started/color.html">Color</a></li>
+            <li><a href="/Get-Started/typography.html">Typography</a></li>
+          </ul>
+        </div>
+        <div class="components">
+          <h3 class="heading4">Components</h3>
+          <ul>
+            <li><a href="./avatar.html">Avatar</a></li>
+            <li><a href="#">Alert</a></li>
+            <li><a href="/Components/Badge/badge.html">Badge</a></li>
+            <li><a href="#">Button</a></li>
+            <li><a href="#">Card</a></li>
+            <li><a href="#">Image</a></li>
+            <li><a href="#">Input</a></li>
+            <li><a href="#">List</a></li>
+            <li><a href="#">Toast</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content mg-1x">
+        <h1 class="heading2 py-bottom-1x">Avatars</h1>
+        <p class="text-size py-bottom-3x">Avatar can be used to show user's profile picture on profile information page, on navigation bar, in blogs and grid items.</p>
+        <h2 class="heaading3 py-bottom-1x">Profile Avatar</h2>
+        <p class="text-size py-bottom-1x">Profile Avatars can be created using the class 'avatar', inside the img tag.</p>
+        <div class="flex horizontal-center py-bottom-1x">
+          <ul class="flex gap-3x">
+            <li><img class="avatar" src="/assets/img/avatar/Tanjiro__Demon_Slayer_.png" alt="Demon Slayer"></li>
+            <li><img class="avatar" src="/assets/img/avatar/Tanjiro__Demon_Slayer_.png" alt="Demon Slayer"></li>
+            <li><img class="avatar" src="/assets/img/avatar/Tanjiro__Demon_Slayer_.png" alt="Demon Slayer"></li>
+          </ul>
+        </div>
+        <pre class="mg-bottom-3x"><code class="language-html">
+          &ltimg class="avatar" src="..." alt="Demon Slayer">
+          &ltimg class="avatar" src="..." alt="Demon Slayer">
+          &ltimg class="avatar" src="..." alt="Demon Slayer">
+        </code></pre>
+        <h2 class="heading3 py-bottom-1x">Circular Avatars</h2>
+        <p class="text-size py-bottom-1x">Size of the avatar can be changed by adding lg (11rem) | md (9rem) | sm (5rem) class to existing avatar class</p>
+        <div>
+          <ul class="flex gap-3x horizontal-center vertical-center py-bottom-1x">
+            <li><img class="avatar avatar-lg" src="/assets/img/avatar/Tanjiro__Demon_Slayer_.png" alt="Demon Slayer"></li>
+            <li><img class="avatar avatar-md" src="/assets/img/avatar/Tanjiro__Demon_Slayer_.png" alt="Demon Slayer"></li>
+            <li><img class="avatar avatar-sm" src="/assets/img/avatar/Tanjiro__Demon_Slayer_.png" alt="Demon Slayer"></li>
+          </ul>
+        </div>
+        <pre class="mg-bottom-3x"><code class="language-html">
+          &ltimg class="avatar avatar-lg" src="..." alt="Demon Slayer">
+          &ltimg class="avatar avatar-md" src="..." alt="Demon Slayer">
+          &ltimg class="avatar avatar-sm" src="..." alt="Demon Slayer">
+        </code></pre>
+        <h2 class="heading3 py-bottom-1x">Sqaure Avatars</h2>
+        <p class="text-size py-bottom-1x">Addind a 'square' class to existing class, will generate a square shaped avatar.</p>
+        <div>
+          <ul class="flex gap-3x horizontal-center vertical-center py-bottom-1x">
+            <li><img class="avatar-square avatar-lg" src="/assets/img/avatar/Tanjiro__Demon_Slayer_.png" alt="Demon Slayer"></li>
+            <li><img class="avatar-square avatar-md" src="/assets/img/avatar/Tanjiro__Demon_Slayer_.png" alt="Demon Slayer"></li>
+            <li><img class="avatar-square avatar-sm" src="/assets/img/avatar/Tanjiro__Demon_Slayer_.png" alt="Demon Slayer"></li>
+          </ul>
+        </div>
+        <pre class="mg-bottom-3x"><code class="language-html">
+          &ltimg class="avatar-square avatar-lg" src="..." alt="Demon Slayer">
+          &ltimg class="avatar-square avatar-md" src="..." alt="Demon Slayer">
+          &ltimg class="avatar-square avatar-sm" src="..." alt="Demon Slayer">
+        </code></pre>
+        <h2 class="heading3 py-bottom-1x">Avatars with Status</h2>
+        <p class="text-size py-bottom-1x">The avatar component is typically used to display square/circle user profile pictures along with status indicators. There are typically 3 status indicators: online, offline and busy.</p>
+        <div class="flex horizontal-center gap-3x py-bottom-1x">
+          <div class="avatar-online">
+            <img class="avatar" src="/assets/img/avatar/Tanjiro__Demon_Slayer_.png" alt="Demon Slayer">
+            <span class="status online"></span>
+          </div>
+          <div class="avatar-offline">
+            <img class="avatar" src="/assets/img/avatar/Tanjiro__Demon_Slayer_.png" alt="Demon Slayer">
+            <span class="status offline"></span>
+          </div>
+          <div class="avatar-busy">
+            <img class="avatar" src="/assets/img/avatar/Tanjiro__Demon_Slayer_.png" alt="Demon Slayer">
+            <span class="status busy"></span>
+          </div>
+        </div>
+        <pre class="mg-bottom-3x code"><code class="language-html">
+          &ltdiv class="avatar-online">
+            &ltimg class="avatar" src="/assets/img/avatar/Tanjiro__Demon_Slayer_.png" alt="Demon Slayer">
+            &ltspan class="status online">&lt/span>
+          &lt/div>
+          &ltdiv class="avatar-offline">
+            &ltimg class="avatar" src="/assets/img/avatar/Tanjiro__Demon_Slayer_.png" alt="Demon Slayer">
+            &ltspan class="status offline">&lt/span>
+          &lt/div>
+          &ltdiv class="avatar-busy">
+            &ltimg class="avatar" src="/assets/img/avatar/Tanjiro__Demon_Slayer_.png" alt="Demon Slayer">
+            &ltspan class="status busy">&lt/span>
+          &lt/div>
+        </code></pre>
+        <div class="link">
+          <ul class="flex">
+            <li class="left bolder"><a href="/Get-Started/typography.html">&lt; Typography</a></li>
+            <li class="right bolder"><a href="#">Alert &gt;</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js" integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>hljs.highlightAll();</script>
+  <script src="https://kit.fontawesome.com/8c3205e455.js" crossorigin="anonymous"></script>
+</body>
+</html>
