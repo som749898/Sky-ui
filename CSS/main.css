@@ -31,18 +31,18 @@ body {
   margin: 0px auto;
 }
 
+#navbar {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+}
+
 #icon {
   font-size: 32px;
 }
 
 #icon a {
   color: #fff;
-}
-
-#navbar {
-  padding: 10px;
-  display: flex;
-  justify-content: center;
 }
 
 #menu {
@@ -61,16 +61,24 @@ body {
   color: #fff;
 }
 
+.menu-list a:hover {
+  color: #276EF1;
+}
+
 #welcome {
+  padding: 0 10px;
   display: flex;
-  padding: 50px 0px;
+  height: 85vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .welcome-left {
   width: 50%;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: flex-start; 
+  /* to make children of flex container inline */
 }
 
 .welcome-left h1 {
@@ -86,7 +94,6 @@ body {
   padding: 10px 30px;
   font-size: 18px;
   border-radius: 3px;
-  width: 180px;
   margin-top: 10px;
 }
 
@@ -97,13 +104,13 @@ body {
 .welcome-right {
   width: 50%;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .welcome-right img {
   height: 450px;
   margin-left: auto;
+  /* Helps in aligning items when parent container has only 1 item */
 }
 
 #content {
@@ -128,7 +135,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: ;
+  align-items: flex-start;
 }
 
 .content-right p {
@@ -143,9 +150,13 @@ body {
   font-size: 18px;
   padding: 10px 30px;
   margin: 20px 0px;
-  width: 180px;
-  color: #fff;
+  /* width: 180px; */
   border-radius: 3px;
+}
+
+.content-right button a {
+  color: #fff;
+  cursor: pointer;
 }
 
 .background-light-grey {
@@ -182,10 +193,6 @@ body {
   width: 50%;
 }
 
-.info-right iframe {
-  background-color: none;
-}
-
 .background-dark-grey {
   background-color: #112233;
   color: #ddd;
@@ -220,4 +227,8 @@ body {
 
 #footer ul li a {
   color: #ddd;
+}
+
+#footer ul li a:hover {
+  color: #276EF1;
 }

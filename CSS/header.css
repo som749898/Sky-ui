@@ -14,17 +14,17 @@ body {
 }
 
 #navbar {
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 .container {
-  max-width: 1220px;
+  max-width: 75rem;
   margin: 0px auto;
 }
 
 #icon {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 900;
 }
 
@@ -33,5 +33,5 @@ body {
 }
 
 .menu-list a:hover {
-  color: #276EF1;
+  color: var(--primary-color);
 }

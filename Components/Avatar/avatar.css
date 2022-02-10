@@ -1,0 +1,53 @@
+.avatar {
+  height: 6.25rem;
+  width: 6.25rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-lg {
+  height: 6.25rem;
+  width: 6.25rem;
+}
+
+.avatar-md {
+  height: 4.375rem;
+  width: 4.375rem;
+}
+
+.avatar-sm {
+  height: 3.125rem;
+  width: 3.125rem;
+}
+
+.avatar-square {
+  border-radius: 5px;
+}
+
+.avatar-online,.avatar-offline,.avatar-busy {
+  display: inline-flex;
+  position: relative;
+}
+
+.status {
+  display: block;
+  height: 0.93rem;
+  width: 0.93rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0.625rem;
+  right: 5px;
+  z-index: 1;
+}
+
+.online {
+  background-color: var(--success-color);
+}
+
+.offline {
+  background-color: var(--danger-color);
+}
+
+.busy {
+  background-color: var(--warning-color);
+}

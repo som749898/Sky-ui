@@ -1,8 +1,12 @@
 .component-list {
-  line-height: 40px;
-  margin-right: 100px;
+  line-height: 2.5rem;
+  margin-right: 6.25rem;
 }
 
 .component-list h3 {
-  line-height: 50px;
+  line-height: 3.125rem;
+}
+
+.component-list a:hover {
+  color: var(--primary-hover);
 }
