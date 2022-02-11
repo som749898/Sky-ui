@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SKY UI</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css" integrity="sha512-Vj6gPCk8EZlqnoveEyuGyYaWZ1+jyjMPg8g4shwyyNlRQl6d3L9At02ZHQr5K6s5duZl/+YKMnM3/8pDhoUphg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/CSS/component.css">
+</head>
+<body>
+  <div class="container">
+    <header id="navbar" class="mg-1x flex vertical-center">
+      <h1 id="icon"><a href="/index.html">SKY UI</a></h1>
+      <ul id="menu" class="flex gap-3x">
+        <li class="menu-list"><a href="/index.html">Home</a></li>
+        <li class="menu-list"><a href="/Get-Started/introduction.html">Docs</a></li>
+        <li class="menu-list"><a href="https://github.com/som749898/sky-ui" target="_blank">Github</a></li>
+      </ul>
+    </header>
+    <div class="main-content flex">
+      <div class="component-list mg-1x">
+        <div class="get-started py-bottom-2x">
+          <h3 class="heading4">Get Started</h3>
+          <ul>
+            <li><a href="/Get-Started/introduction.html">Introduction</a></li>
+            <li><a href="/Get-Started/color.html">Color</a></li>
+            <li><a href="/Get-Started/typography.html">Typography</a></li>
+          </ul>
+        </div>
+        <div class="components">
+          <h3 class="heading4">Components</h3>
+          <ul>
+            <li><a href="/Components/Avatar/avatar.html">Avatar</a></li>
+            <li><a href="/Components/Alert/alert.html">Alert</a></li>
+            <li><a href="/Components/Badge/badge.html">Badge</a></li>
+            <li><a href="/Components/Button/button.html">Button</a></li>
+            <li><a href="#">Card</a></li>
+            <li><a href="#">Image</a></li>
+            <li><a href="#">Input</a></li>
+            <li><a href="#">List</a></li>
+            <li><a href="#">Toast</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content mg-1x">
+        <h1 class="heading2 py-bottom-1x">Alert</h1>
+        <p class="text-size py-bottom-3x">An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.</p>
+        <h2 class="heading3 py-bottom-1x">Simple Alert</h2>
+        <p class="text-size py-bottom-1x">Simple Alerts can be created using alert class, followed by the variant name.</p>
+        <div class="py-bottom-1x">
+          <div class="alert alert-primary">
+            <p>Primary! This is a Primary Alert</p>
+          </div>
+          <div class="alert alert-secondary">
+            <p>A secondary alert example!!!!</p>
+          </div>
+          <div class="alert alert-success">
+            <i class="fas fa-check-circle"></i>
+            <p>A success alert example!!!!</p>
+          </div>
+          <div class="alert alert-danger">
+            <i class="fas fa-exclamation-triangle"></i>
+            <p>A danger alert example!!!!</p>
+          </div>
+          <div class="alert alert-warning">
+            <i class="fas fa-exclamation-triangle"></i>
+            <p>A warning alert example!!!</p>
+          </div>
+        </div>
+        <pre class="code mg-bottom-3x"><code class="language-html">
+          &ltdiv class="alert alert-primary">
+            &ltp>Primary! This is a Primary Alert&lt/p>
+          &lt/div>
+          &ltdiv class="alert alert-secondary">
+            &ltp>A secondary alert example!!!!&lt/p>
+          &lt/div>
+          &ltdiv class="alert alert-success">
+            &lti class="fas fa-check-circle">&lt/i>
+            &ltp>A success alert example!!!!&lt/p>
+          &lt/div>
+          &ltdiv class="alert alert-danger">
+            &lti class="fas fa-exclamation-triangle">&lt/i>
+            &ltp>A danger alert example!!!!&lt/p>
+          &lt/div>
+          &ltdiv class="alert alert-warning">
+            &lti class="fas fa-exclamation-triangle">&lt/i>
+            &ltp>A warning alert example!!!&lt/p>
+          &lt/div>
+        </code></pre>
+        <h2 class="heading3 py-bottom-1x">Outline Alert</h2>
+        <p class="text-size py-bottom-1x">Outline alerts are created by using alert class, followed by outline-variant.</p>
+        <div>
+          <div class="alert outline-alert-primary">
+            <p>Primary! This is a Primary Alert - Check it now!</p>
+          </div>
+          <div class="alert outline-alert-secondary">
+            <p>A secondary alert example!!!!</p>
+          </div>
+          <div class="alert outline-alert-success">
+            <i class="fas fa-check-circle"></i>
+            <p>A success alert example!!!!</p>
+          </div>
+          <div class="alert outline-alert-danger">
+            <i class="fas fa-exclamation-triangle"></i>
+            <p>A danger alert example!!!!</p>
+          </div>
+          <div class="alert outline-alert-warning">
+            <i class="fas fa-exclamation-triangle"></i>
+            <p>A warning alert example!!!</p>
+          </div>
+        </div>
+        <pre class="code mg-bottom-3x"><code class="language-html">
+          &ltdiv class="alert outline-alert-primary">
+            &ltp>Primary! This is a Primary Alert&lt/p>
+          &lt/div>
+          &ltdiv class="alert outline-alert-secondary">
+            &ltp>A secondary alert example!!!!&lt/p>
+          &lt/div>
+          &ltdiv class="alert outline-alert-success">
+            &lti class="fas fa-check-circle">&lt/i>
+            &ltp>A success alert example!!!!&lt/p>
+          &lt/div>
+          &ltdiv class="alert outline-alert-danger">
+            &lti class="fas fa-exclamation-triangle">&lt/i>
+            &ltp>A danger alert example!!!!&lt/p>
+          &lt/div>
+          &ltdiv class="alert outline-alert-warning">
+            &lti class="fas fa-exclamation-triangle">&lt/i>
+            &ltp>A warning alert example!!!&lt/p>
+          &lt/div>
+        </code></pre>
+        <div class="link">
+          <ul class="flex vertical-center">
+            <li class="left bolder"><a href="/Components/Avatar/avatar.html">&lt; Avatar</a></li>
+            <li class="right bolder"><a href="/Components/Badge/badge.html">Badge &gt;</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js" integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>hljs.highlightAll();</script>
+  <script src="https://kit.fontawesome.com/8c3205e455.js" crossorigin="anonymous"></script>
+</body>
+</html>
