@@ -139,3 +139,8 @@
   background-color: var(--background-cover);
   border: 1px solid var(--secondary-color);
 }
+
+
+.round {
+  border-radius: 50%;
+}
