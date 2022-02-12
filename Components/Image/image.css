@@ -1,0 +1,14 @@
+.img {
+  height: 9.375rem;
+  width: 9.375rem;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.responsive-img {
+  width: 100%;
+  max-width: 62.5rem;
+  height: auto;
+}

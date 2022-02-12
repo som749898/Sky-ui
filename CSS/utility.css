@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600&family=Roboto:wght@300&display=swap');
 
 .py-1x {
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 .py-2x {
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .py-3x {
-  padding: 30px;
+  padding: 1.875rem;
 }
 
 .mg-1x {
-  margin: 10px;
+  margin: 0.625rem;
 }
 
 .mg-2x {
-  margin: 20px;
+  margin: 1.25rem;
 }
 
 .mg-3x {
-  margin: 30px;
+  margin: 1.875rem;
 }
 
 .flex {
@@ -41,61 +41,71 @@
 }
 
 .gap-1x {
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .gap-2x {
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .gap-3x {
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 .heading1 {
-  font-size: 48px;
-  line-height: 64px;
+  font-size: 3rem;
+  line-height: 4rem;
 }
 
 .heading2 {
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 .heading3 {
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .heading4 {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .py-bottom-1x {
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
 }
 
 .py-bottom-2x {
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 
 .py-bottom-3x {
-  padding-bottom: 30px;
+  padding-bottom: 1.875rem;
 }
 
 .mg-bottom-1x {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .mg-bottom-2x {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .mg-bottom-3x {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
+.mg-right-1x {
+  margin-right: 0.625rem;
+}
 
+.mg-right-2x {
+  margin-right: 1.25rem;
+}
+
+.mg-right-3x {
+  margin-right: 1.875rem;
+}
 
 
 
@@ -103,12 +113,16 @@
 
 
 .text-size {
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 1.125rem;
+  line-height: 1.563rem;
 }
 
 .text-grey {
-  color: #666;
+  color: var(--secondary-color);
+}
+
+.text-primary {
+  color: var(--primary-color);
 }
 
 .bolder {
@@ -116,7 +130,12 @@
 }
 
 .code {
-  max-height: 150px;
+  max-height: 9.375rem;
   overflow: scroll;
   overflow-x: hidden;
+}
+
+.background-cover {
+  background-color: var(--background-cover);
+  border: 1px solid var(--secondary-color);
 }

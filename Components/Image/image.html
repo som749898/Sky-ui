@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SKY UI</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css" integrity="sha512-Vj6gPCk8EZlqnoveEyuGyYaWZ1+jyjMPg8g4shwyyNlRQl6d3L9At02ZHQr5K6s5duZl/+YKMnM3/8pDhoUphg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/CSS/component.css">
+</head>
+<body>
+  <div class="container">
+    <header id="navbar" class="mg-1x flex vertical-center">
+      <h1 id="icon"><a href="/index.html">SKY UI</a></h1>
+      <ul id="menu" class="flex gap-3x">
+        <li class="menu-list"><a href="/index.html">Home</a></li>
+        <li class="menu-list"><a href="/Get-Started/introduction.html">Docs</a></li>
+        <li class="menu-list"><a href="https://github.com/som749898/sky-ui" target="_blank">Github</a></li>
+      </ul>
+    </header>
+    <div class="main-content flex">
+      <div class="component-list mg-1x">
+        <div class="get-started py-bottom-2x">
+          <h3 class="heading4">Get Started</h3>
+          <ul>
+            <li><a href="/Get-Started/introduction.html">Introduction</a></li>
+            <li><a href="/Get-Started/color.html">Color</a></li>
+            <li><a href="/Get-Started/typography.html">Typography</a></li>
+          </ul>
+        </div>
+        <div class="components">
+          <h3 class="heading4">Components</h3>
+          <ul>
+            <li><a href="/Components/Avatar/avatar.html">Avatar</a></li>
+            <li><a href="/Components/Alert/alert.html">Alert</a></li>
+            <li><a href="/Components/Badge/badge.html">Badge</a></li>
+            <li><a href="/Components/Button/button.html">Button</a></li>
+            <li><a href="#">Card</a></li>
+            <li><a href="/Components/Image/image.html">Image</a></li>
+            <li><a href="#">Input</a></li>
+            <li><a href="#">List</a></li>
+            <li><a href="#">Toast</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content mg-1x">
+        <h1 class="heading2 py-bottom-1x">Responsive Image</h1>
+        <p class="text-size py-bottom-3x">Responsive Image Components are used to dsiplay Images on websites, which are screen responsive. They expand upto the width of the container they are in.</p>
+        <h2 class="heading3 py-bottom-1x">Square Image</h2>
+        <p class="text-size py-bottom-1x">Square Images are the square shaped, with a default dimension of 150px X 150px.</p>
+        <div class="background-cover flex horizontal-center vertical-center gap-3x py-3x mg-bottom-1x">
+          <img class="img" src="/assets/img/image/image1.jfif" alt="image">
+          <img class="img" src="/assets/img/image/image2.jfif" alt="image">
+        </div>
+        <pre class="mg-bottom-3x"><code class="language-html">
+          &ltimg class="img" src="..." alt="image">
+          &ltimg class="img" src="..." alt="image">
+        </code></pre>
+        <h2 class="heading3 py-bottom-1x">Round Image</h2>
+        <p class="text-size py-bottom-1x">Round Images are the circular, with a default dimension of 150px X 150px.</p>
+        <div class="background-cover flex horizontal-center vertical-center gap-3x py-3x mg-bottom-1x">
+          <img class="img round" src="/assets/img/image/image3.jfif" alt="image">
+          <img class="img round" src="/assets/img/image/image4.jfif" alt="image">
+        </div>
+        <pre class="mg-bottom-3x"><code class="language-html">
+          <img class="img round" src="..." alt="image">
+          <img class="img round" src="..." alt="image">
+        </code></pre>
+        <h2 class="heading3 py-bottom-1x">Full Width Image</h2>
+        <p class="text-size">Full Width Image is the one that expands to cover the container it is present in.</p>
+        <p class="text-size text-primary py-bottom-1x">Note : Resize the browser window, to see the responsive property.
+        </p>
+        <div class="background-cover flex horizontal-center vertical-center gap-3x py-3x mg-bottom-1x">
+          <img class="responsive-img" src="/assets/img/image/image6.jpg" alt="image">
+        </div>
+        <pre class="mg-bottom-3x"><code class="language-html">
+          &ltimg class="responsive-img" src="..." alt="image">
+        </code></pre>
+        <div class="link mg-bottom-3x">
+          <ul class="flex vertical-center">
+            <li class="left bolder"><a href="#">&lt; Card</a></li>
+            <li class="right bolder"><a href="/Components/Input/input.html">Input &gt;</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js" integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>hljs.highlightAll();</script>
+  <script src="https://kit.fontawesome.com/8c3205e455.js" crossorigin="anonymous"></script>
+</body>
+</html>
