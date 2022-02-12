@@ -10,6 +10,8 @@
 @import url(/Components/Badge/badge.css);
 @import url(/Components/Alert/alert.css);
 @import url(/Components/Button/button.css);
+@import url(/Components/Image/image.css);
+@import url(/Components/Input/input.css);
 
 
 /* CSS Reset */
@@ -40,4 +42,5 @@ a {
 
   --white-color: #fff;
   --off-white: #ddd;
+  --background-cover: #F5F7F9;
 }

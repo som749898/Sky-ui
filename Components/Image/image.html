@@ -44,56 +44,44 @@
         </div>
       </div>
       <div class="content mg-1x">
-        <h1 class="heading2 py-bottom-1x">Badge</h1>
-        <p class="text-size py-bottom-3x">Badges are being used to display a notification count or status information</p>
-        <h2 class="heading3 py-bottom-1x">Badge over Text</h2>
-        <p class="text-size py-bottom-2x">This component is typically used to display badges over text.</p>
-        <div class="item-container flex horizontal-center py-bottom-1x">
-          <div class="badge-container">
-            <p class="text-style">Text over badge.</p>
-            <span class="text-badge-position text-badge-style">New</span>
-          </div>
+        <h1 class="heading2 py-bottom-1x">Responsive Image</h1>
+        <p class="text-size py-bottom-3x">Responsive Image Components are used to dsiplay Images on websites, which are screen responsive. They expand upto the width of the container they are in.</p>
+        <h2 class="heading3 py-bottom-1x">Square Image</h2>
+        <p class="text-size py-bottom-1x">Square Images are the square shaped, with a default dimension of 150px X 150px.</p>
+        <div class="background-cover flex horizontal-center vertical-center gap-3x py-3x mg-bottom-1x">
+          <img class="img" src="/assets/img/image/image1.jfif" alt="image">
+          <img class="img" src="/assets/img/image/image2.jfif" alt="image">
         </div>
         <pre class="mg-bottom-3x"><code class="language-html">
-          &ltdiv class="badge-container">
-            &ltp class="text-style">Text over badge.&lt/p>
-            &ltspan class="text-badge-position text-badge-style">New&lt/span>
-          &lt/div>
+          &ltimg class="img" src="..." alt="image">
+          &ltimg class="img" src="..." alt="image">
         </code></pre>
-        <h2 class="heading3 py-bottom-1x">Badge over Button</h2>
-        <p class="text-size py-bottom-2x">This component is used to display badges over buttons.</p>
-        <div class="item-container flex horizontal-center py-bottom-1x">
-          <div class="badge-container">
-            <button class="button-style">Action</button>
-            <span class="button-badge-position button-badge-style">9</span>
-          </div>
+        <h2 class="heading3 py-bottom-1x">Round Image</h2>
+        <p class="text-size py-bottom-1x">Round Images are the circular, with a default dimension of 150px X 150px.</p>
+        <div class="background-cover flex horizontal-center vertical-center gap-3x py-3x mg-bottom-1x">
+          <img class="img round" src="/assets/img/image/image3.jfif" alt="image">
+          <img class="img round" src="/assets/img/image/image4.jfif" alt="image">
         </div>
         <pre class="mg-bottom-3x"><code class="language-html">
-        &ltdiv class="badge-container">
-          &ltbutton class="button-style">Action&lt/button>
-          &ltspan class="button-badge-position button-badge-style">9&lt/span>
-        &lt/div>
-      </code></pre>
-      <h2 class="heading3 py-bottom-1x">Badges over Icon</h2>
-      <p class="text-sizes py-bottom-2x">This component is used to display badges over icons.</p>
-      <div class="item-container flex horizontal-center py-bottom-1x">
-        <div class="badge-container">
-          <i class="fas fa-shopping-cart fa-3x"></i>
-          <span class="icon-badge-position icon-badge-style">5</span>
+          &ltimg class="img round" src="..." alt="image">
+          &ltimg class="img round" src="..." alt="image">
+        </code></pre>
+        <h2 class="heading3 py-bottom-1x">Full Width Image</h2>
+        <p class="text-size">Full Width Image is the one that expands to cover the container it is present in.</p>
+        <p class="text-size text-primary py-bottom-1x">Note : Resize the browser window, to see the responsive property.
+        </p>
+        <div class="background-cover flex horizontal-center vertical-center gap-3x py-3x mg-bottom-1x">
+          <img class="responsive-img" src="/assets/img/image/image6.jpg" alt="image">
         </div>
-      </div>
-      <pre class="mg-bottom-3x"><code class="language-html">
-        &ltdiv class="badge-container">
-          &lti class="fas fa-shopping-cart fa-3x">&lt/i>
-          &ltspan class="icon-badge-position icon-badge-style">5&lt/span>
-        &lt/div>
-      </code></pre>
-      <div class="link">
-        <ul class="flex vertical-center">
-          <li class="left bolder"><a href="/Components/Alert/alert.html">&lt; Alert</a></li>
-          <li class="right bolder"><a href="/Components/Button/button.html">Button &gt;</a></li>
-        </ul>
-      </div>
+        <pre class="mg-bottom-3x"><code class="language-html">
+          &ltimg class="responsive-img" src="..." alt="image">
+        </code></pre>
+        <div class="link mg-bottom-3x">
+          <ul class="flex vertical-center">
+            <li class="left bolder"><a href="#">&lt; Card</a></li>
+            <li class="right bolder"><a href="/Components/Input/input.html">Input &gt;</a></li>
+          </ul>
+        </div>
       </div>
     </div> 
   </div>

@@ -1,0 +1,10 @@
+.img {
+  height: 9.375rem;
+  width: 9.375rem;
+}
+
+.responsive-img {
+  width: 100%;
+  max-width: 62.5rem;
+  height: auto;
+}
