@@ -32,9 +32,9 @@
           <h3 class="heading4">Components</h3>
           <ul>
             <li><a href="/Components/Avatar/avatar.html">Avatar</a></li>
-            <li><a href="#">Alert</a></li>
+            <li><a href="/Components/Alert/alert.html">Alert</a></li>
             <li><a href="/Components/Badge/badge.html">Badge</a></li>
-            <li><a href="#">Button</a></li>
+            <li><a href="/Components/Button/button.html">Button</a></li>
             <li><a href="#">Card</a></li>
             <li><a href="#">Image</a></li>
             <li><a href="#">Input</a></li>
@@ -44,35 +44,35 @@
         </div>
       </div>
       <div class="content mg-1x">
-      <h1 class="heading2 py-bottom-1x">Badge</h1>
-      <p class="text-size py-bottom-3x">Badges are being used to display a notification count or status information</p>
-      <h2 class="heading3 py-bottom-1x">Badge over Text</h2>
-      <p class="text-size py-bottom-2x">This component is typically used to display badges over text.</p>
-      <div class="item-container flex horizontal-center py-bottom-1x">
-        <div class="badge-container">
-          <p class="text-style">Text over badge.</p>
-          <span class="text-badge-position text-badge-style">New</span>
+        <h1 class="heading2 py-bottom-1x">Badge</h1>
+        <p class="text-size py-bottom-3x">Badges are being used to display a notification count or status information</p>
+        <h2 class="heading3 py-bottom-1x">Badge over Text</h2>
+        <p class="text-size py-bottom-2x">This component is typically used to display badges over text.</p>
+        <div class="item-container flex horizontal-center py-bottom-1x">
+          <div class="badge-container">
+            <p class="text-style">Text over badge.</p>
+            <span class="text-badge-position text-badge-style">New</span>
+          </div>
         </div>
-      </div>
-      <pre class="mg-bottom-3x"><code class="language-html">
+        <pre class="mg-bottom-3x"><code class="language-html">
+          &ltdiv class="badge-container">
+            &ltp class="text-style">Text over badge.&lt/p>
+            &ltspan class="text-badge-position text-badge-style">New&lt/span>
+          &lt/div>
+        </code></pre>
+        <h2 class="heading3 py-bottom-1x">Badge over Button</h2>
+        <p class="text-size py-bottom-2x">This component is used to display badges over buttons.</p>
+        <div class="item-container flex horizontal-center py-bottom-1x">
+          <div class="badge-container">
+            <button class="button-style">Action</button>
+            <span class="button-badge-position button-badge-style">9</span>
+          </div>
+        </div>
+        <pre class="mg-bottom-3x"><code class="language-html">
         &ltdiv class="badge-container">
-          &ltp class="text-style">Text over badge.&lt/p>
-          &ltspan class="text-badge-position text-badge-style">New&lt/span>
+          &ltbutton class="button-style">Action&lt/button>
+          &ltspan class="button-badge-position button-badge-style">9&lt/span>
         &lt/div>
-      </code></pre>
-      <h2 class="heading3 py-bottom-1x">Badge over Button</h2>
-      <p class="text-size py-bottom-2x">This component is used to display badges over buttons.</p>
-      <div class="item-container flex horizontal-center py-bottom-1x">
-        <div class="badge-container">
-          <button class="button-style">Action</button>
-          <span class="button-badge-position button-badge-style">9</span>
-        </div>
-      </div>
-      <pre class="mg-bottom-3x"><code class="language-html">
-        &ltdiv class="badge-container">
-        &ltbutton class="button-style">Action&lt/button>
-        &ltspan class="button-badge-position button-badge-style">9&lt/span>
-      &lt/div>
       </code></pre>
       <h2 class="heading3 py-bottom-1x">Badges over Icon</h2>
       <p class="text-sizes py-bottom-2x">This component is used to display badges over icons.</p>
@@ -84,14 +84,14 @@
       </div>
       <pre class="mg-bottom-3x"><code class="language-html">
         &ltdiv class="badge-container">
-        &lti class="fas fa-shopping-cart fa-3x">&lt/i>
-        &ltspan class="icon-badge-position icon-badge-style">5&lt/span>
-      &lt/div>
+          &lti class="fas fa-shopping-cart fa-3x">&lt/i>
+          &ltspan class="icon-badge-position icon-badge-style">5&lt/span>
+        &lt/div>
       </code></pre>
       <div class="link">
-        <ul class="flex">
-          <li class="left bolder"><a href="#">&lt; Alert</a></li>
-          <li class="right bolder"><a href="#">Button &gt;</a></li>
+        <ul class="flex vertical-center">
+          <li class="left bolder"><a href="/Components/Alert/alert.html">&lt; Alert</a></li>
+          <li class="right bolder"><a href="/Components/Button/button.html">Button &gt;</a></li>
         </ul>
       </div>
       </div>

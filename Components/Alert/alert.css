@@ -1,0 +1,58 @@
+.alert {
+  margin: 0.625rem;
+  padding: 0.938rem;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.alert-primary {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.alert-secondary {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: var(--success-hover);
+}
+
+.alert-danger {
+  background-color: var(--danger-color);
+  color: var(--danger-hover);
+}
+
+.alert-warning {
+  background-color: var(--warning-color);
+  color: var(--warning-hover);
+}
+
+.outline-alert-primary {
+  color: var(--primary-hover);
+  border: 1px solid var(--primary-color);
+}
+
+.outline-alert-secondary {
+  color: var(--secondary-hover);
+  border: 1px solid var(--secondary-color);
+}
+
+.outline-alert-success {
+  color: var(--success-hover);
+  border: 1px solid var(--success-color);
+}
+
+.outline-alert-danger {
+  color: var(--danger-hover);
+  border: 1px solid var(--danger-color);
+}
+
+.outline-alert-warning {
+  color: var(--warning-hover);
+  border: 1px solid var(--warning-color);
+}
