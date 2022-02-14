@@ -1,5 +1,4 @@
 .badge-container {
-  display: inline-flex;
   position: relative;
   margin: auto;
 }
@@ -9,6 +8,7 @@
 }
 
 .text-badge-position {
+  width: fit-content;
   position: absolute;
   top: -0.625rem;
   right: -0.938rem;

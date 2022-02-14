@@ -1,0 +1,38 @@
+.card-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+
+.card {
+  border: none;
+}
+
+.card-img {
+
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-price {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 5px;
+}
+
+.card-btn {
+  width: 100%;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.card-badge {
+  top: 0px;
+  left: 0px;
+  padding: 5px;
+  background-color: var(--primary-color);
+}
+
