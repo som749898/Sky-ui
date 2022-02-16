@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SKY UI</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css" integrity="sha512-Vj6gPCk8EZlqnoveEyuGyYaWZ1+jyjMPg8g4shwyyNlRQl6d3L9At02ZHQr5K6s5duZl/+YKMnM3/8pDhoUphg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css"
+    integrity="sha512-Vj6gPCk8EZlqnoveEyuGyYaWZ1+jyjMPg8g4shwyyNlRQl6d3L9At02ZHQr5K6s5duZl/+YKMnM3/8pDhoUphg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="/CSS/component.css">
 </head>
+
 <body>
   <div class="container">
     <header id="navbar" class="mg-1x flex vertical-center">
@@ -46,9 +50,11 @@
       <div class="content mg-1x">
         <h1 class="heading2 py-bottom-1x">Card</h1>
         <p class="text-size py-bottom-1x">Cards are surfaces that display content and actions on a single topic.</p>
-        <p class="text-size py-bottom-3x">They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.</p>
+        <p class="text-size py-bottom-3x">They should be easy to scan for relevant and actionable information. Elements,
+          like text and images, should be placed on them in a way that clearly indicates hierarchy.</p>
         <h2 class="heading3 py-bottom-1x">Example of Vertical Card</h2>
-        <p class="text-size py-bottom-1x">Below are 3 variations, card with badge, card with image default-container, card with close button. All the cards have like button.</p>
+        <p class="text-size py-bottom-1x">Below are 3 variations, card with badge, card with image default-container,
+          card with close button. All the cards have like button.</p>
         <div class="card-container mg-bottom-1x">
           <div class="card background-cover">
             <img class="card-img" src="/assets/img/card/t-shirt-8.jpg" alt="image">
@@ -64,22 +70,142 @@
             <button class="card-btn btn btn-primary">Buy Now</button>
           </div>
           <div class="card background-cover badge-container">
-            <div
-             class="flex">
-              <span class="card-badge text-badge-position text-badge-style">New</span>
-              <i class="fal fa-times"></i>
-            </div>
+            <span class="card-badge text-badge-position text-badge-style">New</span>
+            <i class="fa fa-times card-icon icon-badge-position"></i>
             <img class="card-img" src="/assets/img/card/t-shirt-8.jpg" alt="image">
             <p class="card-title">Men Premium Tshirt</p>
             <p class="card-price text-size">$75</p>
             <button class="card-btn btn btn-primary">Buy Now</button>
           </div>
         </div>
+        <pre class="code mg-bottom-3x"><code class="language-html">
+          &ltdiv class="card-container mg-bottom-1x">
+            &ltdiv class="card background-cover">
+              &ltimg class="card-img" src="/assets/img/card/t-shirt-8.jpg" alt="image">
+              &ltp class="card-title">Men Premium Tshirt&lt/p>
+              &ltp class="card-price text-size">$75&lt/p>
+              &ltbutton class="card-btn btn btn-primary">Buy Now&lt/button>
+            &lt/div>
+            &ltdiv class="card background-cover badge-container">
+              &ltspan class="card-badge text-badge-position text-badge-style">New&lt/span>
+              &ltimg class="card-img" src="/assets/img/card/t-shirt-8.jpg" alt="image">
+              &ltp class="card-title">Men Premium Tshirt&lt/p>
+              &ltp class="card-price text-size">$75&lt/p>
+              &ltbutton class="card-btn btn btn-primary">Buy Now&lt/button>
+            &lt/div>
+            &ltdiv class="card background-cover badge-container">
+                &ltspan class="card-badge text-badge-position text-badge-style">New/span>
+                &lti class="fa fa-times card-icon icon-badge-position">&lt/i>
+              &ltimg class="card-img" src="/assets/img/card/t-shirt-8.jpg" alt="image">
+              &ltp class="card-title">Men Premium Tshirt</p>
+              &ltp class="card-price text-size">$75&lt/p>
+              &ltbutton class="card-btn btn btn-primary">Buy Now&lt/button>
+            &lt/div>
+          &lt/div>
+        </code></pre>
+        <h2 class="heading3 py-bottom-1x">Example of Horizontal Card</h2>
+        <p class="text-size py-bottom-1x">Card's image may have a margin or it can be full-bleed. By default card's
+          images are full-bleed. If you want image to have margin, you can use default-container class.</p>
+        <p class="text-size py-bottom-1x">Copy below code and put your desired text and image and you are good to go.
+        </p>
+        <div class="card-horizontal mg-bottom-1x">
+          <div class="card background-cover badge-container flex">
+            <img class="card-img-horizontal" src="/assets/img/card/t-shirt-8.jpg" alt="image">
+            <div class="card-content">
+              <p class="card-title-horizontal">Men Premium Tshirt</p>
+              <p class="card-price text-size py-bottom-2x py-top-1x">$75</p>
+              <div class="flex">
+                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn outline-btn-secondary">Wishlist</button>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="card background-cover badge-container flex">
+            <span class="card-badge text-badge-position text-badge-style">New</span>
+            <img class="card-img-horizontal" src="/assets/img/card/t-shirt-8.jpg" alt="image">
+            <div class="card-content">
+              <p class="card-title-horizontal">Men Premium Tshirt</p>
+              <p class="card-price text-size py-bottom-2x py-top-1x">$75</p>
+              <div class="flex">
+                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn outline-btn-secondary">Wishlist</button>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="card background-cover badge-container flex">
+            <span class="card-badge text-badge-position text-badge-style">New</span>
+            <i class="fa fa-times card-icon icon-badge-position"></i>
+            <img class="card-img-horizontal" src="/assets/img/card/t-shirt-8.jpg" alt="image">
+            <div class="card-content">
+              <p class="card-title-horizontal">Men Premium Tshirt</p>
+              <p class="card-price text-size py-bottom-2x py-top-1x">$75</p>
+              <div class="flex">
+                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn outline-btn-secondary">Wishlist</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <pre class="code mg-bottom-3x"><code class="language-html">
+          &ltdiv class="card-horizontal mg-bottom-1x">
+            &ltdiv class="card background-cover badge-container flex">
+              &ltimg class="card-img-horizontal" src="/assets/img/card/t-shirt-8.jpg" alt="image">
+              &ltdiv class="card-content">
+                &ltp class="card-title-horizontal">Men Premium Tshirt&lt/p>
+                &ltp class="card-price text-size py-bottom-2x py-top-1x">$75&lt/p>
+                  &ltdiv class="flex">
+                    &ltbutton class="btn btn-primary">Buy Now&lt/button>
+                    &ltbutton class="btn outline-btn-secondary">Wishlist&lt/button>
+                  &lt/div>
+            &lt/div>
+          &lt/div>
+          &ltbr>
+          &ltdiv class="card background-cover badge-container flex">
+            &ltspan class="card-badge text-badge-position text-badge-style">New&lt/span>
+              &ltimg class="card-img-horizontal" src="/assets/img/card/t-shirt-8.jpg" alt="image">
+              &ltdiv class="card-content">
+                &ltp class="card-title-horizontal">Men Premium Tshirt&lt/p>
+                &ltp class="card-price text-size py-bottom-2x py-top-1x">$75&lt/p>
+                &ltdiv class="flex">
+                  &ltbutton class="btn btn-primary">Buy Now&lt/button>
+                  &ltbutton class="btn outline-btn-secondary">Wishlist&lt/button>
+                &lt/div>
+            &lt/div>
+          &lt/div>
+          &ltbr>
+          &ltdiv class="card background-cover badge-container flex">
+            &ltspan class="card-badge text-badge-position text-badge-style">New&lt/span>
+            &lti class="fa fa-times card-icon icon-badge-position">&lt/i>
+            &ltimg class="card-img-horizontal" src="/assets/img/card/t-shirt-8.jpg" alt="image">
+            &ltdiv class="card-content">
+              &ltp class="card-title-horizontal">Men Premium Tshirt&lt/p>
+              &ltp class="card-price text-size py-bottom-2x py-top-1x">$75&lt/p>
+              &ltdiv class="flex">
+                &ltbutton class="btn btn-primary">Buy Now&lt/button>
+                &ltbutton class="btn outline-btn-secondary">Wishlist&lt/button>
+              &lt/div>
+            &lt/div>
+          &lt/div>
+      </code></pre>
+      <div class="link">
+        <ul class="flex vertical-center">
+          <li class="left bolder"><a href="/Components/Button/button.html">&lt; Button</a></li>
+          <li class="right bolder"><a href="/Components/Image/image.html">Image &gt;</a></li>
+        </ul>
       </div>
-    </div> 
+      </div>
+    </div>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js" integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script>hljs.highlightAll();</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+    integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
   <script src="https://kit.fontawesome.com/8c3205e455.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

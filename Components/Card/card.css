@@ -1,16 +1,17 @@
 .card-container {
   display: flex;
   align-items: center;
-  gap: 30px;
-  padding: 10px;
+  gap: 1.875rem;
+  padding: 0.625rem;
 }
 
 .card {
+  position: relative;
   border: none;
 }
 
 .card-img {
-
+  
 }
 
 .card-title {
@@ -26,7 +27,7 @@
 .card-btn {
   width: 100%;
   margin: 0px;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .card-badge {
@@ -36,3 +37,34 @@
   background-color: var(--primary-color);
 }
 
+.card-icon {
+  top: 0;
+  right: 0;
+  padding: 0.313rem 0.625rem;
+  color: var(--secondary-color);
+  font-size: 1.25rem;
+}
+
+.card-icon:hover {
+  color: var(--default-color);
+}
+
+.card-horizontal {
+  width: fit-content;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem 0.938rem;
+}
+
+.card-img-horizontal {
+  width: 12.5rem;
+}
+
+.card-title-horizontal {
+  font-size: 1.25rem;
+  text-align: center;
+}
