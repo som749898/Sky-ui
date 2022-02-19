@@ -1,5 +1,4 @@
 .badge-container {
-  display: inline-flex;
   position: relative;
   margin: auto;
 }
@@ -9,6 +8,7 @@
 }
 
 .text-badge-position {
+  width: fit-content;
   position: absolute;
   top: -0.625rem;
   right: -0.938rem;
@@ -36,6 +36,7 @@
   position: absolute;
   top: -0.938rem;
   right: -0.625rem;
+  width: fit-content;
 }
 
 .button-badge-style {
@@ -51,6 +52,7 @@
   z-index: 1;
   top: -0.5rem;
   right: -0.5rem;
+  width: fit-content;
 }
 
 .icon-badge-style {

@@ -36,6 +36,14 @@
   justify-content: center;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .right {
   margin-left: auto;
 }
@@ -83,6 +91,10 @@
   padding-bottom: 1.875rem;
 }
 
+.py-top-1x {
+  padding-top: 0.625rem;
+}
+
 .mg-bottom-1x {
   margin-bottom: 0.625rem;
 }
@@ -107,10 +119,9 @@
   margin-right: 1.875rem;
 }
 
-
-
-
-
+.mg-top-1x {
+  margin-top: 0.625rem;
+}
 
 .text-size {
   font-size: 1.125rem;
@@ -133,6 +144,8 @@
   max-height: 9.375rem;
   overflow: scroll;
   overflow-x: hidden;
+  /* overflow-x: visible;
+  max-width: 60rem; */
 }
 
 .background-cover {
@@ -140,7 +153,10 @@
   border: 1px solid var(--secondary-color);
 }
 
-
 .round {
   border-radius: 50%;
+}
+
+.width-300 {
+  width: 18.75rem;
 }
