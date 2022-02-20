@@ -1,0 +1,31 @@
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-success {
+  color: var(--success-color);
+}
+
+.text-error {
+  color: var(--error-color);
+}
+
+.text-warning {
+  color: var(--warning-color);
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.align-self-left {
+  align-self: flex-start;
+}
+
+.align-self-right {
+  align-self: flex-end;
+}
