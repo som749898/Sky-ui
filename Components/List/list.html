@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SKY UI</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css"
+    integrity="sha512-Vj6gPCk8EZlqnoveEyuGyYaWZ1+jyjMPg8g4shwyyNlRQl6d3L9At02ZHQr5K6s5duZl/+YKMnM3/8pDhoUphg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/CSS/component.css">
+</head>
+<body>
+  <div class="container">
+    <header id="navbar" class="mg-1x flex vertical-center">
+      <h1 id="icon"><a href="/index.html">SKY UI</a></h1>
+      <ul id="menu" class="flex gap-3x">
+        <li class="menu-list"><a href="/index.html">Home</a></li>
+        <li class="menu-list"><a href="/Get-Started/introduction.html">Docs</a></li>
+        <li class="menu-list"><a href="https://github.com/som749898/sky-ui" target="_blank">Github</a></li>
+      </ul>
+    </header>
+    <div class="main-content flex">
+      <div class="component-list mg-1x">
+        <div class="get-started py-bottom-2x">
+          <h3 class="heading4">Get Started</h3>
+          <ul>
+            <li><a href="/Get-Started/introduction.html">Introduction</a></li>
+            <li><a href="/Get-Started/color.html">Color</a></li>
+            <li><a href="/Get-Started/typography.html">Typography</a></li>
+          </ul>
+        </div>
+        <div class="components">
+          <h3 class="heading4">Components</h3>
+          <ul>
+            <li><a href="/Components/Avatar/avatar.html">Avatar</a></li>
+            <li><a href="/Components/Alert/alert.html">Alert</a></li>
+            <li><a href="/Components/Badge/badge.html">Badge</a></li>
+            <li><a href="/Components/Button/button.html">Button</a></li>
+            <li><a href="/Components/Card/card.html">Card</a></li>
+            <li><a href="/Components/Image/image.html">Image</a></li>
+            <li><a href="/Components/Input/input.html">Input</a></li>
+            <li><a href="/Components/List/list.html">List</a></li>
+            <li><a href="/Components/Text-Utilities/text.html">Text Utilities</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content mg-1x">
+        <h2 class="heading2 py-bottom-1x">List</h2>
+        <p class="text-size py-bottom-3x">Lists are continuous, vertical indexes of text or images. They are composed of items containing primary and supplemental actions, which are represented by icons and text.</p>
+        <h3 class="heading3 py-bottom-1x">Simple List Groups</h3>
+        <div class="background-cover flex flex-column vertical-center horizontal-center py-1x mg-bottom-1x">
+          <ul class="list py-1x">
+            <div class="list-title bolder">Categories</div>
+            <hr>
+            <li>Home</li>
+            <li>Blogs</li>
+            <li>Projects</li>
+            <li>Social</li>
+          </ul>
+        </div>
+        <pre class="mg-bottom-3x"><code class="language-html">
+          &ltul class="list py-1x">
+            &ltdiv class="list-title bolder">Categories&lt/div>
+            &lthr>
+            &ltli>Home&lt/li>
+            &ltli>Blogs&lt/li>
+            &ltli>Projects&lt/li>
+            &ltli>Social&lt/li>
+          &lt/ul>
+        </code></pre>
+        <h3 class="heading3 py-bottom-1x">Select List Groups</h3>
+        <p class="text-size py-bottom-1x">Select List groups contains items with checkboxes. They are useful for refining the products search on an eCommerce website.</p>
+        <div class="background-cover flex flex-column vertical-center horizontal-center py-1x mg-bottom-1x">
+          <div class="list py-1x">
+            <div class="list-title bolder">Categories</div>
+            <hr>
+            <div class="checkbox">
+              <label for="checkbox-1">
+                <input type="checkbox" name="checkbox-1" id="checkbox-1">
+                Apple
+              </label>
+            </div>
+            <div class="checkbox">
+              <label for="checkbox-2">
+                <input type="checkbox" name="checkbox-2" id="checkbox-2">
+                Banana
+              </label>
+            </div>
+            <div class="checkbox">
+              <label for="checkbox-3">
+                <input type="checkbox" name="checkbox-3" id="checkbox-3">
+                Orange
+              </label>
+            </div>
+          </div>
+        </div>
+        <pre class="code mg-bottom-3x"><code class="language-html">
+          &ltdiv class="list py-1x">
+            &ltdiv class="list-title bolder">Categories&lt/div>
+            &lthr>
+            &ltdiv class="checkbox">
+              &ltlabel for="checkbox-1">
+                &ltinput type="checkbox" name="checkbox-1" id="checkbox-1">
+                Apple
+              &lt/label>
+            &lt/div>
+            &ltdiv class="checkbox">
+              &ltlabel for="checkbox-2">
+                &ltinput type="checkbox" name="checkbox-2" id="checkbox-2">
+                Banana
+              &lt/label>
+            &lt/div>
+            &ltdiv class="checkbox">
+              &ltlabel for="checkbox-3">
+                &ltinput type="checkbox" name="checkbox-3" id="checkbox-3">
+                Orange
+              &lt/label>
+            &lt/div>
+          &lt/div>
+        </code></pre>
+        <div class="link">
+          <ul class="flex vertical-center">
+            <li class="left bolder"><a href="/Components/Input/input.html">&lt; Input</a></li>
+            <li class="right bolder"><a href="/Components/Text-Utilities/text.html">Text Utilities &gt;</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+    integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+  <script src="https://kit.fontawesome.com/8c3205e455.js" crossorigin="anonymous"></script>
+</body>
+</html>

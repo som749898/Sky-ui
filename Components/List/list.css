@@ -1,0 +1,21 @@
+.list {
+  background-color: var(--white-color);
+  width: 240px;
+}
+
+.list-title {
+  padding: 1rem;
+}
+
+.list li {
+  padding: 0.7rem 1.1rem;
+}
+
+.list li:hover{
+  cursor: pointer;
+  color : var(--primary-color);
+}
+
+.checkbox {
+  padding: 0.7rem 1.1rem
+}
