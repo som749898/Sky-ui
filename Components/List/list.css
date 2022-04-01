@@ -19,3 +19,15 @@
 .checkbox {
   padding: 0.7rem 1.1rem
 }
+
+.stacked-list {
+  background-color: var(--white-color);
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  margin: 0.75rem;
+}
+
+.stacked-list li:hover{
+  cursor: pointer;
+  color : var(--primary-color);
+}
